@@ -1,0 +1,57 @@
+body {
+	background-image: url(15.jpg);
+	font-family: SimHei;
+	font-size: 20px;
+	line-height: 15px;
+	color: rgb(134, 91, 134);
+}
+.nav {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color:rgb(204, 173, 178);
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c4b0b7;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #b495a0;
+	padding-left: 10px;
+	color: #AD5A5A;
+    font-family: "楷体";
+}
+.main {
+	/*background-image: url(4.jpg);*/
+	color:rgb(2, 2, 2);
+    font-family: "楷体";
+	/* letter-spacing:5px; */
+	Line-height:30px;
+}
+
+a { 
+    display: inline;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+a:link {
+	color:#605050;
+	text-decoration: blink;
+}
+a:visited {
+	text-decoration: none;
+	color:#605050;
+}
+/*选择指针浮动元素*/
+a:hover {
+	text-decoration: none;
+	color: rgb(165, 40, 40);
+   /* background-color:gray;*/
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
